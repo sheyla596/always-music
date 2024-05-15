@@ -1,8 +1,8 @@
 import pool from '../config/estudiantes.js';
 
-//Capturar datos
+
 const estudiante = process.argv.slice(2);
-const opcion=estudiante[0]; //¿Queremos agregar, eliminar o editar?
+const opcion=estudiante[0]; 
 const nombre =estudiante[1];
 let rut= estudiante[2];
 const curso=estudiante[3];

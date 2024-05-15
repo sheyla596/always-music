@@ -11,10 +11,4 @@ const pool = new Pool({
     allowExitOnIdle: true,
   })
 
-    //   const getData= async ()=>{
-//     const response = await pool.query('select now()');
-//     console.log(response.rows)
-//   }
-// getData();
-
 export default pool;
